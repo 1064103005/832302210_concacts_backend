@@ -24,10 +24,12 @@
    cd 832302210_concacts_backend
 2. 创建数据库
    CREATE DATABASE contacts_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci
-3. 配置连接
-   修改
+3. 配置连接修改
    ```bash
        src/main/resources/application.properties
        spring.datasource.url=jdbc:mysql://localhost:3306/contacts_db
        spring.datasource.username=root
        spring.datasource.password=061231
+4. 
+   
+
