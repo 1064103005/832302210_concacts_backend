@@ -43,9 +43,9 @@ python -m http.server 8000
 # Node
 npx http-server src -p 8000
 浏览器访问 http://localhost:8000/contacts.html
-注意事项
-后端必须运行在 http://localhost:8080 且已开启 CORS
-修改联系人时始终从数据库拉取最新数据，禁止本地缓存
-所有成功/失败操作均给出弹窗或行内提示
-相关链接
-后端仓库：https://github.com/f2x1/832302210_concacts_backend
+# 注意事项
+-后端必须运行在 http://localhost:8080 且已开启 CORS
+-修改联系人时始终从数据库拉取最新数据，禁止本地缓存
+-所有成功/失败操作均给出弹窗或行内提示
+-相关链接
+-后端仓库：https://github.com/f2x1/832302210_concacts_backend
