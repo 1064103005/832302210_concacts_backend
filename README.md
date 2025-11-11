@@ -3,7 +3,7 @@
 ## 项目定位
 第一次作业——前后端分离通讯录编程 **后端仓库**  
 学号：832302210  
-作者：f2x1  
+作者：陈祺嵘
 技术栈：Spring Boot 2.7.0 + Spring Data JPA + MySQL 8.0
 
 ## 功能总览
@@ -60,4 +60,12 @@ curl -X POST localhost:8080/api/contacts \
 2. 搜索
 ```bash
 curl "localhost:8080/api/contacts/search?keyword=张"
-
+```
+## 测试&构建
+```bash
+mvn test                # 执行单元测试
+mvn clean package      # 打可执行 jar
+java -jar target/contacts-backend-1.0.0.jar
+```
+## 相关链接
+前端仓库：https://github.com/1064103005/832302210_concacts_frontend
