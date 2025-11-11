@@ -68,4 +68,4 @@ mvn clean package      # 打可执行 jar
 java -jar target/contacts-backend-1.0.0.jar
 ```
 ## 相关链接
-前端仓库：https://github.com/1064103005/832302210_concacts_frontend
+前端仓库：https://github.com/1064103005/832302210-concacts_frontend
