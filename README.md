@@ -1,8 +1,9 @@
 ## 项目定位
 第一次作业——前后端分离通讯录编程 **前端仓库**  
 学号：832302210  
-作者：f2x1  
-基础技术：纯 HTML + CSS + ES6 JavaScript，无框架
+作者：陈祺嵘
+基础技术：纯 HTML + CSS + ES6 JavaScript
+数据库：MySQL
 
 ## 功能总览
 | 功能 | 实现状态 | 后端交互说明 |
@@ -27,7 +28,7 @@
 │  └─ js/app.js
 ├─ README.md
 └─ codestyle.md
-复制
+
 
 ## 本地运行
 1. 克隆仓库  
