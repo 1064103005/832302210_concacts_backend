@@ -30,6 +30,10 @@
        spring.datasource.url=jdbc:mysql://localhost:3306/contacts_db
        spring.datasource.username=root
        spring.datasource.password=061231
-4. 
+4. 运行
+   ```bash
+   ./mvnw spring-boot:run   # or: mvn spring-boot:run
+5. 验证
+访问 http://localhost:8080/api/contacts/health 应返回 {"status":"UP"}
    
 
