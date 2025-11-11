@@ -27,3 +27,4 @@ cd 832302210_concacts_frontend
 # 2. 启动静态服务器（任选）
 python -m http.server 8000   # Python
 npx http-server src -p 8000 # Node
+浏览器访问 http://localhost:8000/contacts.html 即可
