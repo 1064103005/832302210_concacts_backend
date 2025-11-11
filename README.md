@@ -36,4 +36,16 @@
 5. 验证
 访问 http://localhost:8080/api/contacts/health 应返回 {"status":"UP"}
    
-
+## 数据库模型
+```sql
+CREATE TABLE contacts (
+  id         BIGINT AUTO_INCREMENT PRIMARY KEY,
+  name       VARCHAR(100) NOT NULL,
+  phone      VARCHAR(20)  NOT NULL UNIQUE,
+  email      VARCHAR(100),
+  address    VARCHAR(200),
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+```
+## 接口示例
