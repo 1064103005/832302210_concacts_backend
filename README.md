@@ -16,21 +16,6 @@
 | 搜索联系人 | ✅ | GET /api/contacts/search | 多字段模糊匹配 |
 | 健康检查 | ✅ | GET /api/contacts/health | 服务存活探测 |
 
-## 目录结构
-832302210_concacts_backend/
-├─ src/main/java/com/example/contacts/
-│  ├─ ContactsApplication.java
-│  ├─ config/
-│  ├─ controller/ContactController.java
-│  ├─ entity/Contact.java
-│  ├─ repository/ContactRepository.java
-│  └─ service/ContactService.java
-├─ src/main/resources/
-│  ├─ application.properties
-│  └─ schema.sql
-├─ pom.xml
-├─ README.md
-└─ codestyle.md
 
 ## 快速开始
 1. 克隆仓库  
@@ -39,5 +24,6 @@
    cd 832302210_concacts_backend
 2. 创建数据库
  CREATE DATABASE contacts_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
+3. 配置连接
+   修改 src/main/resources/application.properties
   
