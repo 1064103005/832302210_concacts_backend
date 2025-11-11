@@ -1,7 +1,7 @@
 # 832302210-Concacts-Frontend  
 
 &gt; 第一次作业：前后端分离通讯录 · 前端仓库  
-&gt; 学号：832302210 | 姓名：f2x1  
+&gt; 学号：832302210 | 姓名：陈祺嵘
 
 ---
 
@@ -28,3 +28,16 @@ cd 832302210_concacts_frontend
 python -m http.server 8000   # Python
 npx http-server src -p 8000 # Node
 浏览器访问 http://localhost:8000/contacts.html 即可
+
+## 4. 目录结构
+832302210_concacts_frontend/
+├─ src/
+│  ├─ contacts.html   # 主页面
+│  ├─ css/style.css   # 样式
+│  └─ js/app.js       # 业务逻辑
+├─ README.md
+└─ codestyle.md       # 代码规范
+
+
+
+
