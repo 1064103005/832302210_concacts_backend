@@ -51,3 +51,12 @@ CREATE TABLE contacts (
 );
 ```
 ## 接口示例
+1. 新增
+```bash
+curl -X POST localhost:8080/api/contacts \
+  -H "Content-Type: application/json" \
+  -d '{"name":"张三","phone":"13800138000","email":"zs@example.com","address":"北京"}'
+2. 搜索
+```bash
+curl "localhost:8080/api/contacts/search?keyword=张"
+
