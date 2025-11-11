@@ -28,7 +28,7 @@ cd 832302210_concacts_frontend
 python -m http.server 8000   # Python
 npx http-server src -p 8000 # Node
 浏览器访问 http://localhost:8000/contacts.html 即可
-
+---
 ## 4. 目录结构
 832302210_concacts_frontend/
 ├─ src/
